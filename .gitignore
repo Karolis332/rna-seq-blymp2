@@ -1,19 +1,37 @@
-# Ignore FASTQ data
-data/*.fastq.gz
+# Ignore raw data
+data/
+!data/README.md  # In case you want to include a note about the data source
+
+# Ignore reference files
+references/
+!references/README.md  # Same idea as above
 
 # Ignore results
 results/
-!results/multiqc/multiqc_report.html  # include summary report
+!results/multiqc/multiqc_report.html  # Keep summary report
+!results/counts/*.counts.txt          # Keep count tables if you want
+results.zip
+# Ignore heavy compressed fastqc reports
+results/fastqc/*.zip
 
-# Ignore references
-references/hg38/*.ht2
-references/hg38/*.fa
-references/hg38/*.gtf
+# Ignore BAM files (big!)
+results/bam/
+results/trimmed/
+results/*.zip
 
-# Ignore Conda environments
-envs/*.yaml
-!config.yaml
+# Ignore conda env files — unless you want to share them
+envs/
+!envs/README.md  # Optional explanation of environments
 
+# Optional: ignore backup/duplicate configs
+config\ copy.yaml
+Snakefile\ copy
+Snakefile-download
 
-# Snakemake metadata
+# Ignore Snakemake metadata
 .snake*
+
+# Other system files
+.DS_Store
+Thumbs.db
+
