@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR8134483	/home/quler/ngs_samples/results/fastqc/SRR8134483_fastqc.zip
+FastQC	all_sections	SRR8134501	/home/quler/ngs_samples/results/fastqc/SRR8134501_fastqc.zip
+FastQC	all_sections	SRR8134485	/home/quler/ngs_samples/results/fastqc/SRR8134485_fastqc.zip
+FastQC	all_sections	SRR8134499	/home/quler/ngs_samples/results/fastqc/SRR8134499_fastqc.zip
+FastQC	all_sections	SRR8134496	/home/quler/ngs_samples/results/fastqc/SRR8134496_fastqc.zip
+FastQC	all_sections	SRR8134484	/home/quler/ngs_samples/results/fastqc/SRR8134484_fastqc.zip
+FastQC	all_sections	SRR8134500	/home/quler/ngs_samples/results/fastqc/SRR8134500_fastqc.zip
+FastQC	all_sections	SRR8134482	/home/quler/ngs_samples/results/fastqc/SRR8134482_fastqc.zip
+FastQC	all_sections	SRR8134480	/home/quler/ngs_samples/results/fastqc/SRR8134480_fastqc.zip
+FastQC	all_sections	SRR8134497	/home/quler/ngs_samples/results/fastqc/SRR8134497_fastqc.zip
+FastQC	all_sections	SRR8134498	/home/quler/ngs_samples/results/fastqc/SRR8134498_fastqc.zip
+FastQC	all_sections	SRR8134481	/home/quler/ngs_samples/results/fastqc/SRR8134481_fastqc.zip

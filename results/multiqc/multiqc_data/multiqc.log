@@ -1,0 +1,2 @@
+[2025-04-02 13:22:25,244] multiqc.core.file_search                           [INFO   ]  Search path: /home/quler/ngs_samples/results
+[2025-04-02 13:22:25,465] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 12 reports
