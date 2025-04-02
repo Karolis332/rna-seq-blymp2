@@ -22,3 +22,5 @@ envs/
 
 # Ignore backup files
 *copy*
+.snakemake/
+Snakefile-download
