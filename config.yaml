@@ -1,0 +1,18 @@
+samples:
+  - SRR8134480
+  - SRR8134481
+  - SRR8134482
+  - SRR8134483
+  - SRR8134484
+  - SRR8134485
+  - SRR8134496
+  - SRR8134497
+  - SRR8134498
+  - SRR8134499
+  - SRR8134500
+  - SRR8134501
+
+reference:
+  fasta: "references/hg38/Homo_sapiens.GRCh38.dna.primary_assembly.fa"
+  gtf: "references/hg38/Homo_sapiens.GRCh38.110.gtf"
+  hisat2_index_base: "references/hg38/hg38_index
