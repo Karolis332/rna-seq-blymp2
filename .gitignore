@@ -1,37 +1,24 @@
-# Ignore raw data
+# Ignore everything in data and references
 data/
-!data/README.md  # In case you want to include a note about the data source
-
-# Ignore reference files
 references/
-!references/README.md  # Same idea as above
 
-# Ignore results
+# Ignore most results
 results/
-!results/multiqc/multiqc_report.html  # Keep summary report
-!results/counts/*.counts.txt          # Keep count tables if you want
-results.zip
-# Ignore heavy compressed fastqc reports
+!results/counts/*.counts.txt
+!results/multiqc/multiqc_report.html
+
+# Ignore large fastqc files
 results/fastqc/*.zip
 
-# Ignore BAM files (big!)
+# Ignore BAMs and trimmed files
 results/bam/
 results/trimmed/
-results/*.zip
 
-# Ignore conda env files — unless you want to share them
+# Ignore zip archives
+*.zip
+
+# Ignore env YAMLs if not needed
 envs/
-!envs/README.md  # Optional explanation of environments
 
-# Optional: ignore backup/duplicate configs
-config\ copy.yaml
-Snakefile\ copy
-Snakefile-download
-
-# Ignore Snakemake metadata
-.snake*
-
-# Other system files
-.DS_Store
-Thumbs.db
-
+# Ignore backup files
+*copy*
