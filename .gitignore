@@ -23,7 +23,7 @@ results/trimmed/
 *.zip
 
 # Ignore env YAMLs if not needed
-envs/
+
 
 # Ignore backup files
 *copy*
