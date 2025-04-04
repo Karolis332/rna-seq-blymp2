@@ -1,0 +1,6 @@
+name: hisat2
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - hisat2

@@ -3,10 +3,15 @@ data/
 references/
 
 # Ignore most results
-results/
-!results/counts/*.counts.txt
-!results/multiqc/multiqc_report.html
+results/*
 
+
+!results/counts/
+!results/counts/*.counts.txt
+!results/counts/*.summary
+!results/multiqc/multiqc_data/
+!results/multiqc/
+!results/multiqc/multiqc_report.html
 # Ignore large fastqc files
 results/fastqc/*.zip
 
