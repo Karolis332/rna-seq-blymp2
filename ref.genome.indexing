@@ -1,0 +1,6 @@
+mkdir -p references/hg38
+cd references/hg38
+
+wget https://ftp.ensembl.org/pub/release-110/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+gunzip Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
+hisat2-build Homo_sapiens.GRCh38.dna.primary_assembly.fa hg38_index
